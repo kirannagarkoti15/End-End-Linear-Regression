@@ -8,11 +8,13 @@ This project aims to predict **vehicle prices** based on various features using 
 ## **Getting Started**  
 
 ### **Install Dependencies**  
-Before running the code, install all required dependencies using:  
+Before running the code, install all required dependencies using:
 ```bash
 pip install -r requirements.txt
+```
+---
 
-## Repository Structure  
+### **Repository Structure**
 
 ```plaintext
 END-END-LINEAR-REGRESSION/
@@ -49,8 +51,9 @@ END-END-LINEAR-REGRESSION/
 ├── main.py                     # **Main script to execute entire pipeline**│
 │── README.md                   # This file
 │── requirements.txt             # Required dependencies
-
-## How to Use  
+```
+---
+### **How to Use**
 
 ### Option 1: Running Jupyter Notebooks (Independent of `src/`)  
 If you prefer a step-by-step interactive approach, use the Jupyter Notebooks inside the `notebook/` folder.  
@@ -69,4 +72,3 @@ For a structured, modular approach, execute the pipeline using:
 
 ```bash
 python main.py
-
