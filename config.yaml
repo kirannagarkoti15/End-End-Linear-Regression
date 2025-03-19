@@ -1,0 +1,12 @@
+data:
+  target: 'Selling_Price'
+  numeric_features: ['Present_Price', 'Kms_Driven', 'Car_Age', 'Owner']
+  categorical_features: ['Fuel_Type', 'Seller_Type', 'Transmission']
+
+model:
+  features: ["Present_Price", "Kms_Driven", "Owner", "Fuel_Type_Diesel", "Seller_Type_Individual", "Transmission_Manual", "Car_Age"]
+
+
+
+
+
